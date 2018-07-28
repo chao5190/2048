@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+<view wx:for-items="{{gameList}}">
+<button type="primary" disabled='{{disabled}}' bindtap='start{{item}}'>{{item}}</button>
+</view>
+<view class='xianyus'>
+<text class='xianyu'>
+更多精彩内容，请投资制作者获得
+</text>
+
+</view>
+</view>
